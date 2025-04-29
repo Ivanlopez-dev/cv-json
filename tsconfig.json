@@ -3,11 +3,11 @@
     "include": [".astro/types.d.ts", "**/*"],
     "exclude": ["dist"],
 
-    // Configuration of Alias
-    // (@/ == src/) -> Avoid relative paths
+    // Configuration of Alias -> Avoid relative paths
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "@cv": ["./cv.json"],
             "@/*": ["src/*"]
         }
     }
