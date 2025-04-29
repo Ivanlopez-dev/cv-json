@@ -8,9 +8,12 @@ import Hero from '@/components/sections/Hero.astro'
 import KeyboardManager from '@/components/KeyboardManager.astro'
 import Projects from '@/components/sections/Projects.astro'
 import Skills from '@/components/sections/Skills.astro'
+
+import { basics } from '@cv'
+const { name, label } = basics
 ---
 
-<Layout title='Ivan López Portfolio'>
+<Layout title={`Curriculum de ${name} - ${label}`}>
     <main>
         <Hero />
         <About />
@@ -23,4 +26,16 @@ import Skills from '@/components/sections/Skills.astro'
     <KeyboardManager />
 </Layout>
 
-<style></style>
+<style>
+    main {
+        padding: 4rem;
+        margin: auto;
+        width: 100%;
+    }
+
+    @media (width <= 700px) {
+        main {
+            padding: 2rem;
+        }
+    }
+</style>
