@@ -1,3 +1,11 @@
+---
+interface Props {
+    title: string
+}
+
+const { title } = Astro.props
+---
+
 <!doctype html>
 <html lang='es'>
     <head>
@@ -15,7 +23,7 @@
             name='generator'
             content={Astro.generator}
         />
-        <title>Ivan López | Portfolio</title>
+        <title>{title}</title>
     </head>
     <body>
         <slot />
