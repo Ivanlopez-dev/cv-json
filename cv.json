@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Ivan López Rodríguez",
-        "label": "Full Stack Developer con 2 años de experiencia",
+        "label": "Full-Stack Developer, centrado en crear soluciones creativas con código reusable y mantenible",
         "image": "https://avatars.githubusercontent.com/u/6099886?v=4",
         "email": "ivaan100@gmail.com",
         "phone": "+34 604020529",
@@ -34,7 +34,7 @@
             "url": "https://www.deliverea.com/",
             "startDate": "2022-09-01",
             "endDate": "2024-03-01",
-            "summary": "La aplicación de Deliverea ofrece una solución logística para empresas de Producto, que se ven en la necesidad de manejar grandes envíos y recogidas junto con varios Transportistas. Uno de mis objetivos es encargarme del sistema de tickets y reportes de los clientes en sí. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Confirmar el error, reportarlo vía Jira creando su correspondiente fix task, PR en GitHub y si está en mi mano, subir el fix directamente. Manejo de llamadas en API Rest, crear y editar documentación, traducir la aplicación. Entre otras cosas, aprendí muchísimo y les estoy agradecidos a todos mis compañeros.",
+            "summary": "La aplicación de Deliverea ofrece una solución logística para empresas de Producto, que se ven en la necesidad de manejar grandes envíos y recogidas junto con varios Transportistas. Uno de mis objetivos es encargarme del sistema de tickets y reportes de los clientes en sí. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Confirmar el error, reportarlo vía Jira creando su correspondiente fix task, PR en GitHub y si está en mi mano, subir el fix directamente. Manejo de llamadas en API Rest, crear y editar documentación, traducir parte la aplicación.",
             "highlights": [""]
         },
         {
