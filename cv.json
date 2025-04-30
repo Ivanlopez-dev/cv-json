@@ -60,6 +60,16 @@
     ],
     "education": [
         {
+            "institution": "Neoland",
+            "url": "https://pdf.credential.net/lz3x8bse_1745830820267.pdf/",
+            "area": "Full-Stack Web Development",
+            "studyType": "Bootcamp 480h",
+            "startDate": "2022-01-10",
+            "endDate": "2022-04-25",
+            "score": "",
+            "courses": [""]
+        },
+        {
             "institution": "Salesians Terrassa",
             "url": "https://terrassa.salesians.cat/",
             "area": "Sistemas informáticos y redes",
