@@ -231,7 +231,7 @@
         {
             "name": "Minino Malo",
             "isActive": true,
-            "description": "E-commerce real con productos artesanos de crochet. Aplicación full-stack creada desde cero usando Next y TypeScript, Tailwind para los estilos, PostgreSQL y Prisma. Destacar también todo el CRUD de usuarios completo y Paypal como pasarela de pago. Además del dashboard de Administración, con el cuál si tienes el rol de usuario adecuado, puedes crear, editar y eliminar Productos.",
+            "description": "E-commerce real con productos de Artesanía. CRUD de usuarios completo y Paypal como pasarela de pago. Dashboard de Administración donde crear, editar y eliminar Productos.",
             "highlights": [
                 "Next.js",
                 "TypeScript",
