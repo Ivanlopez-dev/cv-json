@@ -34,7 +34,7 @@
             "url": "https://www.deliverea.com/",
             "startDate": "2022-09-01",
             "endDate": "2024-03-01",
-            "summary": "La aplicación de Deliverea ofrece una solución logística para empresas de Producto, que se ven en la necesidad de manejar grandes envíos y recogidas con varios Carriers(transportistas). Uno de mis objetivos es encargarme del sistema de tickets y reportes. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Confirmar el error, reportarlo vía Jira creando su correspondiente fix task, PR en GitHub y si está en mi mano, subir el fix directamente. Manejo de llamadas en API Rest, crear y editar documentación, traducir parte la aplicación.",
+            "summary": "Uno de mis objetivos es encargarme del sistema de tickets y reportes. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Confirmar el error, reportarlo vía Jira creando su correspondiente fix task, PR en GitHub y si está en mi mano, subir el fix directamente. Manejo de llamadas en API Rest, crear y editar documentación, traducir parte la aplicación.",
             "highlights": [""]
         },
         {
