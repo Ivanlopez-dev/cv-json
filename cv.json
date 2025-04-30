@@ -34,7 +34,7 @@
             "url": "https://www.deliverea.com/",
             "startDate": "2022-09-01",
             "endDate": "2024-03-01",
-            "summary": "La aplicación de Deliverea ofrece una solución logística para empresas de Producto, que se ven en la necesidad de manejar grandes envíos y recogidas junto con varios Transportistas. Uno de mis objetivos es encargarme del sistema de tickets y reportes de los clientes en sí. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Confirmar el error, reportarlo vía Jira creando su correspondiente fix task, PR en GitHub y si está en mi mano, subir el fix directamente. Manejo de llamadas en API Rest, crear y editar documentación, traducir parte la aplicación.",
+            "summary": "La aplicación de Deliverea ofrece una solución logística para empresas de Producto, que se ven en la necesidad de manejar grandes envíos y recogidas con varios Carriers(transportistas). Uno de mis objetivos es encargarme del sistema de tickets y reportes. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Confirmar el error, reportarlo vía Jira creando su correspondiente fix task, PR en GitHub y si está en mi mano, subir el fix directamente. Manejo de llamadas en API Rest, crear y editar documentación, traducir parte la aplicación.",
             "highlights": [""]
         },
         {
@@ -67,7 +67,7 @@
             "startDate": "2012-09-20",
             "endDate": "2014-06-07",
             "score": "8.0",
-            "courses": ["."]
+            "courses": [""]
         }
     ],
     "awards": [
@@ -75,7 +75,7 @@
             "title": "Award",
             "date": "2014-11-01",
             "awarder": "Company",
-            "summary": "."
+            "summary": ""
         }
     ],
     "certificates": [
@@ -231,8 +231,13 @@
         {
             "name": "Minino Malo",
             "isActive": true,
-            "description": "Ecommerce real con productos artesanos de crochet. Aplicación full-stack creada desde cero usando Next.js y TypeScript, TailwindCSS para los estilos, PostgreSQL y Prisma. Cabe destacar también todo el CRUD de usuarios completo y Paypal de pasarela de pago",
-            "highlights": [".", "."],
+            "description": "E-commerce real con productos artesanos de crochet. Aplicación full-stack creada desde cero usando Next y TypeScript, Tailwind para los estilos, PostgreSQL y Prisma. Destacar también todo el CRUD de usuarios completo y Paypal como pasarela de pago. Además del dashboard de Administración, con el cuál si tienes el rol de usuario adecuado, puedes crear, editar y eliminar Productos.",
+            "highlights": [
+                "Next.js",
+                "TypeScript",
+                "Carrito",
+                "Pasarela de Pago"
+            ],
             "url": "https://mininomalo.com"
         }
     ]
