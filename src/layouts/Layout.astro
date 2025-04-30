@@ -92,6 +92,10 @@ const { title } = Astro.props
         text-wrap: pretty;
     }
 
+    article {
+        break-inside: avoid;
+    }
+
     @media print {
         .no-print {
             display: none !important;
