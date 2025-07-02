@@ -1,0 +1,172 @@
+---
+const currentPath = Astro.url.pathname
+const isEnglish = currentPath.startsWith('/en')
+const currentLang = isEnglish ? 'en' : 'es'
+
+const langOptions = [
+  {
+    code: 'es',
+    label: 'Español',
+    flag: '/flags/es.svg',
+    href: currentPath.startsWith('/en')
+      ? currentPath.replace('/en', '') || '/'
+      : currentPath
+  },
+  {
+    code: 'en',
+    label: 'English',
+    flag: '/flags/en.svg',
+    href: currentPath.startsWith('/en')
+      ? currentPath
+      : `/en${currentPath}`.replace('//en', '/en')
+  }
+]
+---
+
+<div class='lang-menu'>
+  <details id='langDropdown'>
+    <summary>
+      <img src={`/flags/${currentLang}.svg`} alt={currentLang} />
+      <span class='code'>{currentLang.toUpperCase()}</span>
+      <img class='chevron' src='/icons/chevron-down.svg' alt='chevron' />
+    </summary>
+
+    <ul class='dropdown'>
+      {
+        langOptions.map(({ code, label, flag, href }) => (
+          <li>
+            <a
+              href={href}
+              onclick={`
+              event.preventDefault()
+              localStorage.setItem('lang', '${code}')
+              location.href = '${href}'
+              document.getElementById('langDropdown').open = false
+              `}
+            >
+              <img src={flag} alt={code} />
+              <span class='code'>{code.toUpperCase()}</span>
+              <span class='label'>{label}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+</div>
+
+<style>
+  img {
+    object-fit: contain;
+  }
+
+  .lang-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+  }
+
+  .lang-menu img {
+    width: auto;
+    height: 18px;
+    object-fit: contain;
+    border-radius: 6px;
+    display: block;
+  }
+
+  .lang-menu img[src$='es.svg'] {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  details {
+    position: relative;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    width: max-content;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .chevron {
+    width: 12px;
+    height: 12px;
+    opacity: 0.6;
+    transition: transform 0.3s ease;
+  }
+
+  details[open] .chevron {
+    transform: rotate(180deg);
+  }
+
+  .code {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .dropdown {
+    margin-top: 0.5rem;
+    padding: 0.25rem 0;
+    position: absolute;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    list-style: none;
+    width: 180px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    z-index: 1000;
+  }
+
+  .dropdown li {
+    padding: 0;
+  }
+
+  .dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.2s;
+  }
+
+  .dropdown a:hover {
+    background: #f5f5f5;
+  }
+
+  .label {
+    margin-left: auto;
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+</style>
+
+<script is:inline>
+  const details = document.getElementById('langDropdown')
+
+  document.addEventListener('click', event => {
+    if (!details.contains(event.target)) {
+      details.open = false
+    }
+  })
+</script>

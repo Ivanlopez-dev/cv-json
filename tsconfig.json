@@ -1,14 +1,25 @@
 {
     "extends": "astro/tsconfigs/strict",
-    "include": [".astro/types.d.ts", "**/*"],
-    "exclude": ["dist"],
-
+    "include": [
+        ".astro/types.d.ts",
+        "**/*"
+    ],
+    "exclude": [
+        "dist"
+    ],
     // Configuration of Alias -> Avoid relative paths
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@cv": ["./cv.json"],
-            "@/*": ["src/*"]
+            "@cv": [
+                "./cv.json"
+            ],
+            "@cven": [
+                "./cv.en.json"
+            ],
+            "@/*": [
+                "src/*"
+            ]
         }
     }
 }
