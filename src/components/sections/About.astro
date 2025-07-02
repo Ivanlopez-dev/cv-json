@@ -1,12 +1,26 @@
 ---
 import Section from '@/components/Section.astro'
 
-import { basics } from '@cv'
-const { summary } = basics
+const currentPath = Astro.url.pathname
+const isEnglish = currentPath.startsWith('/en')
+const currentLang = isEnglish ? 'en' : 'es'
+
+let basics: any = {}
+
+if (currentLang === 'en') {
+  basics = await import('@cven').then(mod => mod.basics)
+} else {
+  basics = await import('@cv').then(mod => mod.basics)
+}
+
+const summary = basics.summary
+
+const titles = {
+  en: 'About me',
+  es: 'Sobre mí'
+}
 ---
 
-<Section title='Sobre mí'>
-    <p>
-        {summary}
-    </p>
+<Section title={titles[currentLang]}>
+  <p>{summary}</p>
 </Section>
