@@ -1,18 +1,18 @@
 {
     "basics": {
         "name": "Ivan López Rodríguez",
-        "label": "Web Developer, apasionado en crear soluciones creativas con código reusable y mantenible",
+        "label": "Web Developer, Passionate about creating Creative Solutions with Reusable and Maintainable Code",
         "image": "https://avatars.githubusercontent.com/u/6099886?v=4",
-        "email": "ivanlopez.codes@gmail.com",
+        "email": "ivaan100@gmail.com",
         "phone": "+34 604020529",
         "url": "https://ivanlorodev.vercel.app/",
-        "summary": "+2 años de experiencia como Desarrollador Web. Acostumbrado al método Ágile, con Sprints semanales. He creado varias aplicaciones con JavaScript vanilla y con librerías-frameworks como React y Nextjs.",
+        "summary": "+2 years of experience as a Web Developer. Used to the Agile method, with weekly Sprints. I have created several applications with vanilla JavaScript and with library-frameworks such as React and Nextjs.",
         "location": {
             "address": "",
             "postalCode": "27002",
             "city": "Lugo",
             "countryCode": "ES",
-            "region": "España"
+            "region": "Spain"
         },
         "profiles": [
             {
@@ -30,22 +30,22 @@
     "work": [
         {
             "name": "Deliverea S.L.",
-            "position": "Web Developer Junior",
+            "position": "Jr Developer",
             "url": "https://www.deliverea.com/",
             "startDate": "2022-09-01",
-            "endDate": "2024-03-01",
-            "summary": "Me encargo del sistema de tickets y reportes. Realizo simulaciones y tests en partes de la aplicación concretas para detectar el error reportado. Gestiono y creo tasks en Jira. Versionado, releases en GitHub. Acostumbrado a API Rest, y crear documentación técnica.",
+            "endDate": "2024-04-01",
+            "summary": "In charge of the technical support system, review errors and handle contact with customers. Debug, test and fix reported bugs if they are in my hand, Jira task management, GitHub releases and versioning. Used to create technical Documentation, API Restfull and Agile methodology.",
             "highlights": [
                 ""
             ]
         },
         {
             "name": "Burger King",
-            "position": "Barra y Cocina",
+            "position": "Waiter & Cook",
             "url": "",
             "startDate": "2018-02-23",
             "endDate": "2022-08-25",
-            "summary": "Encargado de la barra, atendiendo a los clientes usando el sistema de tickets y cobrando pedidos. Pasé a realizar otras tareas de Cocina y aprendí a trabajar en todos los turnos (tanto de apertura como cierre del local)",
+            "summary": "Started attending the bar, taking and preparing orders to clients. Managing restaurant openings and closings. Finally I used to Prepare kitchen orders and train new employees.",
             "highlights": [
                 ""
             ]

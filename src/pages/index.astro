@@ -9,33 +9,34 @@ import KeyboardManager from '@/components/KeyboardManager.astro'
 import Projects from '@/components/sections/Projects.astro'
 import Skills from '@/components/sections/Skills.astro'
 
-import { basics } from '@cv'
+import cv from '../../cv.json'
+const { basics } = cv
 const { name, label } = basics
 ---
 
-<Layout title={`Curriculum de ${name} - ${label}`}>
-    <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Education />
-        <Projects />
-        <Skills />
-    </main>
+<Layout title=`Curriculum de ${name} - ${label}`>
+  <main>
+    <Hero cv={cv} />
+    <About cv={cv} />
+    <Experience cv={cv} />
+    <Education cv={cv} />
+    <Projects cv={cv} />
+    <Skills cv={cv} />
 
     <KeyboardManager />
-</Layout>
+  </main>
 
-<style>
+  <style>
     main {
-        padding: 4rem;
-        margin: auto;
-        width: 100%;
+      padding: 4rem;
+      margin: auto;
+      width: 100%;
     }
 
     @media (width <= 700px) {
-        main {
-            padding: 2rem;
-        }
+      main {
+        padding: 2rem;
+      }
     }
-</style>
+  </style>
+</Layout>
