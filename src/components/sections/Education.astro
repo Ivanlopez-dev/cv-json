@@ -1,69 +1,92 @@
 ---
 import Section from '@/components/Section.astro'
+import { t } from '@/locales/i18n'
 
-import { education } from '@cv'
+const currentPath = Astro.url.pathname
+const isEnglish = currentPath.startsWith('/en')
+
+let education = []
+
+if (isEnglish) {
+  const cvEn = await import('@cven')
+  education = cvEn.education
+} else {
+  const cvEs = await import('@cv')
+  education = cvEs.education
+}
 ---
 
-<Section title='Educación'>
-    <ul>
-        {
-            education.map(
-                ({ institution, url, area, studyType, startDate, endDate }) => {
-                    const startYear = new Date(startDate).getFullYear()
-                    const endYear =
-                        endDate != null
-                            ? new Date(endDate).getFullYear()
-                            : 'Actual'
-                    const years = `${startYear} - ${endYear}`
+<Section title={t('section.education', currentPath)}>
+  <ul>
+    {
+      education.map(
+        ({ id, url, startDate, endDate, area, studyType, institution }) => {
+          const startYear = new Date(startDate).getFullYear()
+          const endYear = endDate
+            ? new Date(endDate).getFullYear()
+            : t('date.present', currentPath)
 
-                    return (
-                        <li>
-                            <article>
-                                <header>
-                                    <div>
-                                        <h3>{area}</h3>
-                                        <h4>{studyType}</h4>
-                                        <p>{institution}</p>
-                                    </div>
+          const years = `${startYear} - ${endYear}`
 
-                                    <time>{years}</time>
-                                </header>
-                            </article>
-                        </li>
-                    )
-                }
-            )
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    {/* Aquí usamos directamente los textos del cv */}
+                    <h3>{area}</h3>
+                    <h4>{studyType}</h4>
+
+                    {url ? (
+                      <p>
+                        <a href={url} target='_blank' rel='noopener noreferrer'>
+                          {institution}{' '}
+                          <small>({t('certificate.label', currentPath)})</small>
+                        </a>
+                      </p>
+                    ) : (
+                      <p>{institution}</p>
+                    )}
+                  </div>
+
+                  <time>{years}</time>
+                </header>
+              </article>
+            </li>
+          )
         }
-    </ul>
-    <Section />
+      )
+    }
+  </ul>
+  <Section />
 </Section>
 
 <style>
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-    }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 
-    article h3 {
-        font-weight: 500;
-        color: #111;
-    }
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
 
-    article h4 {
-        font-weight: 400;
-        color: #222;
-    }
+  article h4 {
+    font-weight: 400;
+    color: #222;
+  }
 
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 4px;
-    }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
 
-    time {
-        font-size: 0.85rem;
-        color: #555;
-    }
+  time {
+    font-size: 0.85rem;
+    color: #555;
+  }
 </style>
