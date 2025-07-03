@@ -1,0 +1,16 @@
+{
+  "section": {
+    "education": "Educación",
+    "projects": "Proyectos",
+    "skills": "Lenguajes y Tecnologías"
+  },
+  "date": {
+    "present": "Actual"
+  },
+  "certificate": {
+    "label": "Ver certificado"
+  },
+  "project": {
+    "view": "Ver el proyecto"
+  }
+}

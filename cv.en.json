@@ -66,22 +66,24 @@
     ],
     "education": [
         {
+            "id": "neoland",
             "institution": "Neoland",
-            "url": "https://pdf.credential.net/lz3x8bse_1745830820267.pdf/",
+            "url": "/certificates/neoland-bootcamp-certificado.pdf",
             "area": "Full-Stack Web Development",
             "studyType": "Bootcamp 480h",
-            "startDate": "2022-01-10",
-            "endDate": "2022-04-25",
+            "startDate": "2022-04-01",
+            "endDate": "2022-06-30",
             "score": "",
             "courses": [
                 ""
             ]
         },
         {
+            "id": "salesians",
             "institution": "Salesians Terrassa",
             "url": "https://terrassa.salesians.cat/",
-            "area": "Sistemas informáticos y redes",
-            "studyType": "Formación Profesional",
+            "area": "Computer Science and Local Networks",
+            "studyType": "Proffesional Education",
             "startDate": "2012-09-20",
             "endDate": "2014-06-07",
             "score": "8.0",
@@ -268,21 +270,23 @@
     ],
     "projects": [
         {
+            "id": "minino",
             "name": "Minino Malo",
             "isActive": true,
-            "description": "E-commerce real con productos de Artesanía. CRUD de usuarios completo y Paypal como pasarela de pago. Dashboard de Administración donde crear, editar y eliminar Productos.",
+            "description": "Real E-commerce with Artisan handmade products. Full user CRUD and PayPal payment gateway. Admin dashboard to create, edit and delete products.",
             "highlights": [
                 "Next.js",
                 "TypeScript",
-                "Pasarela de Pago",
-                "Carrito"
+                "Payment Gateway",
+                "Cart"
             ],
             "url": "https://mininomalo.com"
         },
         {
+            "id": "filedriver",
             "name": "File Driver",
             "isActive": true,
-            "description": "Aplicación de gestión y almacenamiento de Documentos, que permite a los usuarios subir, organizar y compartir archivos rapidísimo. Inspirado por gigantes como Google Drive y One Drive!",
+            "description": "Document management and storage app, allowing users to upload, organize and share files instantly. Inspired by Google Drive and OneDrive!",
             "highlights": [
                 "Next.js",
                 "TypeScript",
@@ -291,13 +295,14 @@
             "url": "https://filedriver.vercel.app/"
         },
         {
+            "id": "travely",
             "name": "Travely",
             "isActive": true,
-            "description": "Travely es un Panel de Administrador inspirado en Agencias de Viaje, que permite a los usuarios crear y buscar viajes-itinerarios únicos, personalizables y generados con Gemini IA.",
+            "description": "Travely is an admin panel inspired by travel agencies. Users can create and search for unique, customizable itineraries powered by Gemini AI.",
             "highlights": [
                 "TypeScript",
-                "React Router",
-                "Gemini IA"
+                "React Router v7",
+                "Gemini AI"
             ],
             "url": "https://travely-agency.vercel.app/dashboard"
         }

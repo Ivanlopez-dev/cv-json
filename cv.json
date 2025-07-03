@@ -30,7 +30,7 @@
     "work": [
         {
             "name": "Deliverea S.L.",
-            "position": "Web Developer Junior",
+            "position": "Web Developer Jr",
             "url": "https://www.deliverea.com/",
             "startDate": "2022-09-01",
             "endDate": "2024-03-01",
@@ -66,9 +66,10 @@
     ],
     "education": [
         {
+            "id": "neoland",
             "institution": "Neoland",
-            "url": "https://pdf.credential.net/lz3x8bse_1745830820267.pdf/",
-            "area": "Full-Stack Web Development",
+            "url": "/certificates/neoland-bootcamp-certificado.pdf",
+            "area": "Desarrollo web full-stack",
             "studyType": "Bootcamp 480h",
             "startDate": "2022-01-10",
             "endDate": "2022-04-25",
@@ -78,6 +79,7 @@
             ]
         },
         {
+            "id": "salesians",
             "institution": "Salesians Terrassa",
             "url": "https://terrassa.salesians.cat/",
             "area": "Sistemas informáticos y redes",
@@ -103,7 +105,7 @@
             "name": "Bootcamp Full-Stack Web Development",
             "date": "2022-04-20",
             "issuer": "Neoland",
-            "url": "https://pdf.credential.net/lz3x8bse_1745830820267.pdf"
+            "url": "/certificates/neoland-bootcamp-certificado.pdf"
         },
         {
             "name": "Next.js - El framework de React para producción",
@@ -268,6 +270,7 @@
     ],
     "projects": [
         {
+            "id": "minino",
             "name": "Minino Malo",
             "isActive": true,
             "description": "E-commerce real con productos de Artesanía. CRUD de usuarios completo y Paypal como pasarela de pago. Dashboard de Administración donde crear, editar y eliminar Productos.",
@@ -280,6 +283,7 @@
             "url": "https://mininomalo.com"
         },
         {
+            "id": "filedriver",
             "name": "File Driver",
             "isActive": true,
             "description": "Aplicación de gestión y almacenamiento de Documentos, que permite a los usuarios subir, organizar y compartir archivos rapidísimo. Inspirado por gigantes como Google Drive y One Drive!",
@@ -291,6 +295,7 @@
             "url": "https://filedriver.vercel.app/"
         },
         {
+            "id": "travely",
             "name": "Travely",
             "isActive": true,
             "description": "Travely es un Panel de Administrador inspirado en Agencias de Viaje, que permite a los usuarios crear y buscar viajes-itinerarios únicos, personalizables y generados con Gemini IA.",
