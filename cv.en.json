@@ -30,7 +30,7 @@
     "work": [
         {
             "name": "Deliverea S.L.",
-            "position": "Jr Developer",
+            "position": "Jr Web Developer",
             "url": "https://www.deliverea.com/",
             "startDate": "2022-09-01",
             "endDate": "2024-04-01",
@@ -65,6 +65,19 @@
         }
     ],
     "education": [
+        {
+            "id": "nextudemy",
+            "institution": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-e972d778-dff7-4c8c-837a-9ac1a1fc3f6d/",
+            "area": "Next.js - The React Framework for production",
+            "studyType": "Course of 405 lessons, 36 hours",
+            "startDate": "2025-01-15",
+            "endDate": "2025-01-23",
+            "score": "",
+            "courses": [
+                ""
+            ]
+        },
         {
             "id": "neoland",
             "institution": "Neoland",

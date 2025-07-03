@@ -66,6 +66,19 @@
     ],
     "education": [
         {
+            "id": "nextudemy",
+            "institution": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-e972d778-dff7-4c8c-837a-9ac1a1fc3f6d/",
+            "area": "Next.js - El framework de React para producción",
+            "studyType": "Curso de 405 Clases, 36 horas",
+            "startDate": "2025-01-15",
+            "endDate": "2025-01-23",
+            "score": "",
+            "courses": [
+                ""
+            ]
+        },
+        {
             "id": "neoland",
             "institution": "Neoland",
             "url": "/certificates/neoland-bootcamp-certificado.pdf",

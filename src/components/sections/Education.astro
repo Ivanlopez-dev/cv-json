@@ -33,13 +33,17 @@ if (isEnglish) {
               <article>
                 <header>
                   <div>
-                    {/* Aquí usamos directamente los textos del cv */}
                     <h3>{area}</h3>
                     <h4>{studyType}</h4>
 
                     {url ? (
                       <p>
-                        <a href={url} target='_blank' rel='noopener noreferrer'>
+                        <a
+                          href={url}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          class='certificate-link'
+                        >
                           {institution}{' '}
                           <small>({t('certificate.label', currentPath)})</small>
                         </a>
@@ -88,5 +92,17 @@ if (isEnglish) {
   time {
     font-size: 0.85rem;
     color: #555;
+  }
+
+  .certificate-link {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .certificate-link:hover {
+    color: #333;
+    text-decoration: underline;
   }
 </style>
