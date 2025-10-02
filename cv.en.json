@@ -1,323 +1,292 @@
 {
-    "basics": {
-        "name": "Ivan López Rodríguez",
-        "label": "Web Developer, Passionate about creating Creative Solutions with Reusable and Maintainable Code",
-        "image": "https://avatars.githubusercontent.com/u/6099886?v=4",
-        "email": "ivaan100@gmail.com",
-        "phone": "+34 604020529",
-        "url": "https://ivanlorodev.vercel.app/",
-        "summary": "+2 years of experience as a Web Developer. Used to the Agile method, with weekly Sprints. I have created several applications with vanilla JavaScript and with library-frameworks such as React and Nextjs.",
-        "location": {
-            "address": "",
-            "postalCode": "27002",
-            "city": "Lugo",
-            "countryCode": "ES",
-            "region": "Spain"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "Ivanlopez-dev",
-                "url": "https://linkedin.com/in/ivan-lopez-dev/"
-            },
-            {
-                "network": "GitHub",
-                "username": "Ivanlopez-dev",
-                "url": "https://github.com/Ivanlopez-dev"
-            }
-        ]
+  "basics": {
+    "name": "Ivan López Rodríguez",
+    "label": "Web Developer, Passionate about creating Creative Solutions with Reusable and Maintainable Code",
+    "image": "https://avatars.githubusercontent.com/u/6099886?v=4",
+    "email": "ivaan100@gmail.com",
+    "phone": "+34 604020529",
+    "url": "https://ivanlorodev.vercel.app/",
+    "summary": "+2 years of experience as a Web Developer. Used to the Agile method, with weekly Sprints. I have created several applications with vanilla JavaScript and with library-frameworks such as React, Angular and Nextjs. And I am used to constant learning thanks to my passion for programming.",
+    "location": {
+      "address": "",
+      "postalCode": "27002",
+      "city": "Lugo",
+      "countryCode": "ES",
+      "region": "Spain"
     },
-    "work": [
-        {
-            "name": "Deliverea S.L.",
-            "position": "Jr Web Developer",
-            "url": "https://www.deliverea.com/",
-            "startDate": "2022-09-01",
-            "endDate": "2024-04-01",
-            "summary": "In charge of the technical support system, review errors and handle contact with customers. Debug, test and fix reported bugs if they are in my hand, Jira task management, GitHub releases and versioning. Used to create technical Documentation, API Restfull and Agile methodology.",
-            "highlights": [
-                ""
-            ]
-        },
-        {
-            "name": "Burger King",
-            "position": "Waiter & Cook",
-            "url": "",
-            "startDate": "2018-02-23",
-            "endDate": "2022-08-25",
-            "summary": "Started attending the bar, taking and preparing orders to clients. Managing restaurant openings and closings. Finally I used to Prepare kitchen orders and train new employees.",
-            "highlights": [
-                ""
-            ]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "url": "https://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description…",
-            "highlights": [
-                "Awarded 'Volunteer of the Month'"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "id": "nextudemy",
-            "institution": "Udemy",
-            "url": "https://www.udemy.com/certificate/UC-e972d778-dff7-4c8c-837a-9ac1a1fc3f6d/",
-            "area": "Next.js - The React Framework for production",
-            "studyType": "Course of 405 lessons, 36 hours",
-            "startDate": "2025-01-15",
-            "endDate": "2025-01-23",
-            "score": "",
-            "courses": [
-                ""
-            ]
-        },
-        {
-            "id": "neoland",
-            "institution": "Neoland",
-            "url": "/certificates/neoland-bootcamp-certificado.pdf",
-            "area": "Full-Stack Web Development",
-            "studyType": "Bootcamp 480h",
-            "startDate": "2022-04-01",
-            "endDate": "2022-06-30",
-            "score": "",
-            "courses": [
-                ""
-            ]
-        },
-        {
-            "id": "salesians",
-            "institution": "Salesians Terrassa",
-            "url": "https://terrassa.salesians.cat/",
-            "area": "Computer Science and Local Networks",
-            "studyType": "Professional Education",
-            "startDate": "2012-09-20",
-            "endDate": "2014-06-07",
-            "score": "8.0",
-            "courses": [
-                ""
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": ""
-        }
-    ],
-    "certificates": [
-        {
-            "name": "Bootcamp Full-Stack Web Development",
-            "date": "2022-04-20",
-            "issuer": "Neoland",
-            "url": "https://pdf.credential.net/lz3x8bse_1745830820267.pdf"
-        },
-        {
-            "name": "Next.js - El framework de React para producción",
-            "date": "2025-01-23",
-            "issuer": "Udemy - Fernando Herrera",
-            "url": "https://www.udemy.com/certificate/UC-e972d778-dff7-4c8c-837a-9ac1a1fc3f6d/"
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
-        }
-    ],
-    "skills": [
-        {
-            "name": "HTML",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend"
-            ]
-        },
-        {
-            "name": "CSS",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "Diseño Responsive"
-            ]
-        },
-        {
-            "name": "JavaScript",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "Backend",
-                "Fullstack"
-            ]
-        },
-        {
-            "name": "Tailwind",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "CSS Framework",
-                "Diseño Responsive"
-            ]
-        },
-        {
-            "name": "TypeScript",
-            "level": "Medio",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "Backend",
-                "JavaScript Superset"
-            ]
-        },
-        {
-            "name": "Node",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Backend",
-                "JavaScript",
-                "Servidor"
-            ]
-        },
-        {
-            "name": "MySQL",
-            "level": "Avanzado",
-            "keywords": [
-                "Bases de Datos",
-                "SQL",
-                "Almacenamiento de Datos",
-                "Backend"
-            ]
-        },
-        {
-            "name": "Git",
-            "level": "Avanzado",
-            "keywords": [
-                "Control de Versiones",
-                "Colaboración",
-                "Código Fuente"
-            ]
-        },
-        {
-            "name": "GitHub",
-            "level": "Avanzado",
-            "keywords": [
-                "Control de Versiones",
-                "Colaboración",
-                "Código Fuente",
-                "Git"
-            ]
-        },
-        {
-            "name": "Next.js",
-            "level": "Medio",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "React Framework",
-                "SSR",
-                "Static Generation"
-            ]
-        },
-        {
-            "name": "React",
-            "level": "Medio",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "JavaScript Library",
-                "UI"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Spanish",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "Advanced"
-        },
-        {
-            "language": "Catalan",
-            "fluency": "Native speaker"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Programación",
-            "keywords": [
-                "Fullstack"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "Midudev",
-            "reference": "El mayor divulgador de Desarrollo Web en español, he aprendido mucho de él"
-        },
-        {
-            "name": "Fernando Herrera",
-            "reference": "Increíble instructor de Desarrollo Web, no se le escapa nada, tiene cursos muy buenos"
-        },
-        {
-            "name": "Mouredev",
-            "reference": "Reciente descubrimiento, tiene muchos recursos y guías útiles sobre el sector"
-        }
-    ],
-    "projects": [
-        {
-            "id": "minino",
-            "name": "Minino Malo",
-            "isActive": true,
-            "description": "Real E-commerce with Artisan handmade products. Full user CRUD and PayPal payment gateway. Admin dashboard to create, edit and delete products.",
-            "highlights": [
-                "Next.js",
-                "TypeScript",
-                "Payment Gateway",
-                "Cart"
-            ],
-            "url": "https://mininomalo.com"
-        },
-        {
-            "id": "filedriver",
-            "name": "File Driver",
-            "isActive": true,
-            "description": "Document management and storage app, allowing users to upload, organize and share files instantly. Inspired by Google Drive and OneDrive!",
-            "highlights": [
-                "Next.js",
-                "TypeScript",
-                "TailwindCSS"
-            ],
-            "url": "https://filedriver.vercel.app/"
-        },
-        {
-            "id": "travely",
-            "name": "Travely",
-            "isActive": true,
-            "description": "Travely is an admin panel inspired by travel agencies. Users can create and search for unique, customizable itineraries powered by Gemini AI.",
-            "highlights": [
-                "TypeScript",
-                "React Router v7",
-                "Gemini AI"
-            ],
-            "url": "https://travely-agency.vercel.app/dashboard"
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Ivanlopez-dev",
+        "url": "https://linkedin.com/in/ivan-lopez-dev/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Ivanlopez-dev",
+        "url": "https://github.com/Ivanlopez-dev"
+      }
     ]
+  },
+  "work": [
+    {
+      "name": "Minino Malo - Ecommerce",
+      "position": "Freelance Developer",
+      "url": "https://mininomalo.com/",
+      "startDate": "2022-08-14",
+      "endDate": "2024-04-01",
+      "summary": "The goal is to create an e-commerce site and digitize the brand of a physical store related to fashion and crafts. The stack I chose was TypeScript, which I love for typing js. Nextjs, the meta framework based on React, seeking to work on SEO, and I used several tools and hooks from React itself. In addition to Prisma and Neon for the back end.",
+      "highlights": [""]
+    },
+    {
+      "name": "Deliverea S.L.",
+      "position": "Jr Web Developer",
+      "url": "https://www.deliverea.com/",
+      "startDate": "2022-09-01",
+      "endDate": "2024-04-01",
+      "summary": "In charge of the technical support system, review errors and handle contact with customers. Debug, test and fix reported bugs if they are in my hand, Jira task management, GitHub releases and versioning. Used to create technical Documentation, API Restfull and Agile methodology.",
+      "highlights": [""]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "id": "angulardevtalles",
+      "institution": "Devtalles",
+      "url": "https://cursos.devtalles.com/certificates/2f6vxeqtcn",
+      "area": "Angular - From zero to expert 2025 edition",
+      "studyType": "344-class course, 35 hours",
+      "startDate": "2025-09-15",
+      "endDate": "2025-09-30",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "id": "nextudemy",
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-e972d778-dff7-4c8c-837a-9ac1a1fc3f6d/",
+      "area": "Next.js - The React Framework for production",
+      "studyType": "405-class course, 36 hours",
+      "startDate": "2025-01-15",
+      "endDate": "2025-01-23",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "id": "jsfreecodecamp",
+      "institution": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/van-codes/javascript-algorithms-and-data-structures-v8",
+      "area": "JavaScript Algorithms and Data Structures",
+      "studyType": "300 hours Course",
+      "startDate": "2025-09-10",
+      "endDate": "2025-09-20",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "id": "webdesignfreecodecamp",
+      "institution": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/van-codes/responsive-web-design",
+      "area": "Responsive Web Design",
+      "studyType": "300 hours Course",
+      "startDate": "2025-08-25",
+      "endDate": "2025-08-17",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "id": "neoland",
+      "institution": "Neoland",
+      "url": "/certificates/neoland-bootcamp-certificado.pdf",
+      "area": "Full-Stack Web Development",
+      "studyType": "Bootcamp 480h",
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-30",
+      "score": "",
+      "courses": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Bootcamp Full-Stack Web Development",
+      "date": "2022-04-20",
+      "issuer": "Neoland",
+      "url": "https://pdf.credential.net/lz3x8bse_1745830820267.pdf"
+    },
+    {
+      "name": "Next.js - El framework de React para producción",
+      "date": "2025-01-23",
+      "issuer": "Udemy - Fernando Herrera",
+      "url": "https://www.udemy.com/certificate/UC-e972d778-dff7-4c8c-837a-9ac1a1fc3f6d/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Medio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programación",
+      "keywords": ["Fullstack"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Midudev",
+      "reference": "El mayor divulgador de Desarrollo Web en español, he aprendido mucho de él"
+    },
+    {
+      "name": "Fernando Herrera",
+      "reference": "Increíble instructor de Desarrollo Web, no se le escapa nada, tiene cursos muy buenos"
+    },
+    {
+      "name": "Mouredev",
+      "reference": "Reciente descubrimiento, tiene muchos recursos y guías útiles sobre el sector"
+    }
+  ],
+  "projects": [
+    {
+      "id": "minino",
+      "name": "Minino Malo",
+      "isActive": true,
+      "description": "Real E-commerce with Artisan handmade products. Full user CRUD and PayPal payment gateway. Admin dashboard to create, edit and delete products.",
+      "highlights": ["Next.js", "TypeScript", "Payment Gateway", "Cart"],
+      "url": "https://mininomalo.com"
+    },
+    {
+      "id": "filedriver",
+      "name": "File Driver",
+      "isActive": true,
+      "description": "Document management and storage app, allowing users to upload, organize and share files instantly. Inspired by Google Drive and OneDrive!",
+      "highlights": ["Next.js", "TypeScript", "TailwindCSS"],
+      "url": "https://filedriver.vercel.app/"
+    },
+    {
+      "id": "travely",
+      "name": "Travely",
+      "isActive": true,
+      "description": "Travely is an admin panel inspired by travel agencies. Users can create and search for unique, customizable itineraries powered by Gemini AI.",
+      "highlights": ["TypeScript", "React Router v7", "Gemini AI"],
+      "url": "https://travely-agency.vercel.app/dashboard"
+    }
+  ]
 }
